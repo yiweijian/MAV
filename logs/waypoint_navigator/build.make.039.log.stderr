@@ -1,0 +1,15 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kvoid waypoint_navigator::WaypointNavigatorNode::computeGoal()[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:305:77:[m[K [01;31m[Kerror: [m[K‘[01m[KScalar[m[K’ was not declared in this scope
+                 cv::circle(goalImage, cv::Point(goal_east, goal_north), 30, [01;31m[KScalar[m[K(0, 0, 255));
+                                                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:305:77:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:58:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/types.hpp:657:25:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Scalar[m[K’
+ typedef Scalar_<double> [01;36m[KScalar[m[K;
+                         [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/nuc/yi/vins/vins_catkin_ws/devel/lib;/opt/ros/indigo/lib")

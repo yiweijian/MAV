@@ -1,0 +1,10 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kcv::Rect2d waypoint_navigator::WaypointNavigatorNode::computeGoal()[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:401:49:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(cv::Rect2d {aka cv::Rect_<double>}) (__gnu_cxx::__alloc_traits<std::allocator<cv::Point_<int> > >::value_type&, __gnu_cxx::__alloc_traits<std::allocator<cv::Point_<int> > >::value_type&)[m[K’
+                  ROI(squares[i][0],squares[i][2][01;31m[K)[m[K;
+                                                 [01;31m[K^[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:435:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kroi[m[K’ was not declared in this scope
+         return [01;31m[Kroi[m[K;
+                [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

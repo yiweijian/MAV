@@ -1,0 +1,8 @@
+prefix=/home/nuc/yi/vins/vins_catkin_ws/devel
+
+Name: dji_interface
+Description: Description of dji_interface
+Version: 0.1.9
+Cflags: -I/home/nuc/yi/vins/vins_catkin_ws/src/mav_dji_ros_interface/dji_interface/include
+Libs: -L/home/nuc/yi/vins/vins_catkin_ws/devel/lib -ldji_interface_lib
+Requires: dji_sdk_lib dji_comm roscpp mav_msgs nav_msgs std_msgs std_srvs

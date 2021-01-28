@@ -1,0 +1,7 @@
+[33m[1mCMake Warning[0m at /usr/local/share/cmake-3.9/Modules/FindProtobuf.cmake:429 (message):
+  Protobuf compiler version doesn't match library version 2.5.0
+[36mCall Stack (most recent call first):[0m
+  /usr/share/gazebo/cmake/gazebo-config.cmake:29 (find_package)
+  CMakeLists.txt:14 (find_package)
+
+

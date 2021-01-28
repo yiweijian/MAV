@@ -1,0 +1,7 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Keigen3/Eigen/core: 没有那个文件或目录
+ #include [01;31m[K<eigen3/Eigen/core>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

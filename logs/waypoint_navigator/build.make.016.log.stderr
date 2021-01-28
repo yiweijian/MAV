@@ -1,0 +1,32 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In function ‘[01m[Kvoid waypoint_navigator::goal_camCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:55:89:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(cv::Mat) (const _height_type&, const _width_type&, int, void*)[m[K’
+             goalImage(img_msg->height,img_msg->width,CV_8UC3,(void*)img_msg->data.data()[01;31m[K)[m[K;
+                                                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:3759:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:904:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat cv::Mat::operator()(cv::Range, cv::Range) const
+ Mat [01;36m[KMat[m[K::operator()( Range _rowRange, Range _colRange ) const
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:904:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:910:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat cv::Mat::operator()(const Rect&) const
+ Mat [01;36m[KMat[m[K::operator()( const Rect& roi ) const
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:910:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:916:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat cv::Mat::operator()(const cv::Range*) const
+ Mat [01;36m[KMat[m[K::operator()(const Range* ranges) const
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:916:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:922:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat cv::Mat::operator()(const std::vector<cv::Range>&) const
+ Mat [01;36m[KMat[m[K::operator()(const std::vector<Range>& ranges) const
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:922:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kvoid waypoint_navigator::WaypointNavigatorNode::computeGoal()[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:288:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage[m[K’ was not declared in this scope
+             if ([01;31m[Kimage[m[K.empty()) {
+                 [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

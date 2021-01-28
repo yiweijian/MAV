@@ -1,0 +1,8 @@
+prefix=/home/nuc/yi/vins/vins_catkin_ws/install
+
+Name: sensor_fusion_comm
+Description: Description of sensor_fusion_comm
+Version: 1.0.1
+Cflags: -I/home/nuc/yi/vins/vins_catkin_ws/install/include
+Libs: -L/home/nuc/yi/vins/vins_catkin_ws/install/lib 
+Requires: message_runtime geometry_msgs

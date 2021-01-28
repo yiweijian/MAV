@@ -1,0 +1,8 @@
+prefix=/home/nuc/yi/vins/vins_catkin_ws/install
+
+Name: yaml_cpp_catkin
+Description: Description of yaml_cpp_catkin
+Version: 0.5.90
+Cflags: -I/home/nuc/yi/vins/vins_catkin_ws/install/include
+Libs: -L/home/nuc/yi/vins/vins_catkin_ws/install/lib -lyaml-cpp0.5
+Requires: 

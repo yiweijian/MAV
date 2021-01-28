@@ -1,0 +1,82 @@
+/home/nuc/yi/vins/vins_catkin_ws/build/glog_catkin/glog_src-prefix/src/glog_src/missing: Unknown `--is-lightweight' option
+Try `/home/nuc/yi/vins/vins_catkin_ws/build/glog_catkin/glog_src-prefix/src/glog_src/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+make[3]: 警告: 子 make 中强制 -jN: 关闭 jobserver 模式。
+In file included from [01m[Ksrc/logging_unittest.cc:58:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+In file included from [01m[Ksrc/utilities.h:82:0[m[K,
+                 from [01m[Ksrc/logging_unittest.cc:33[m[K:
+[01m[Ksrc/logging_unittest.cc:[m[K In function ‘[01m[Kvoid TestLogging(bool)[m[K’:
+[01m[Ksrc/glog/logging.h:917:30:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[KINVALID_REQUESTED_LOG_SEVERITY[m[K’ locally defined but not used [[01;35m[K-Wunused-local-typedefs[m[K]
+                              [01;35m[KI[m[KNVALID_REQUESTED_LOG_SEVERITY);           \
+                              [01;35m[K^[m[K
+[01m[Ksrc/glog/logging.h:912:73:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGOOGLE_GLOG_COMPILE_ASSERT[m[K’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> [01;36m[Kmsg[m[K[bool(expr) ? 1 : -1]
+                                                                         [01;36m[K^~~[m[K
+[01m[Ksrc/logging_unittest.cc:254:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KLOG_EVERY_N[m[K’
+     [01;36m[KLOG_EVERY_N[m[K(ERROR, 4) << "Log every 4, iteration " << COUNTER << endl;
+     [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ksrc/logging_unittest.cc:[m[K In function ‘[01m[Kvoid TestDCHECK()[m[K’:
+[01m[Ksrc/logging_unittest.cc:567:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[Kauto_ptr[m[K<int64> sptr(new int64);
+   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/7/locale:43[m[K,
+                 from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+                 from [01m[Ksrc/logging_unittest.cc:44[m[K:
+[01m[K/usr/include/c++/7/bits/unique_ptr.h:51:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class [01;36m[Kauto_ptr[m[K;
+                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[Ksrc/demangle_unittest.cc:41:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/ext/hash_set:60:0[m[K,
+                 from [01m[Ksrc/glog/stl_logging.h:73[m[K,
+                 from [01m[Ksrc/stl_logging_unittest.cc:53[m[K:
+[01m[K/usr/include/c++/7/backward/backward_warning.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[Ksrc/utilities.h:73:0[m[K,
+                 from [01m[Ksrc/googletest.h:38[m[K,
+                 from [01m[Ksrc/stl_logging_unittest.cc:54[m[K:
+[01m[Ksrc/base/mutex.h:137:0:[m[K [01;35m[Kwarning: [m[K"_XOPEN_SOURCE" redefined
+ #   define _XOPEN_SOURCE 500  // may be needed to get the rwlock calls
+ 
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h:39:0[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h:533[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:38[m[K,
+                 from [01m[Ksrc/stl_logging_unittest.cc:34[m[K:
+[01m[K/usr/include/features.h:162:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ 
+In file included from [01m[Ksrc/symbolize_unittest.cc:41:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+In file included from [01m[Ksrc/stl_logging_unittest.cc:54:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+In file included from [01m[Ksrc/utilities_unittest.cc:33:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+make[3]: 警告: 子 make 中强制 -jN: 关闭 jobserver 模式。

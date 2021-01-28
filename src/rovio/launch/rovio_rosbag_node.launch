@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<launch>
+  <node pkg="rovio" type="rovio_rosbag_loader" name="rovio" output="screen">
+  <param name="filter_config" value="$(find rovio)/cfg/rovio.info"/>
+  <param name="camera0_config" value="$(find rovio)/cfg/rovio_cam0.yaml"/>
+  <param name="camera1_config" value="$(find rovio)/cfg/rovio_cam0.yaml"/>
+  <param name="rosbag_filename" value="/home/nuc/tindigo_catkin_ws/src/rovio/rovio/c_2019-05-24-15-34-48.bag"/>
+  <param name="imu_topic_name" value="/camera/imu"/>
+  <param name="cam0_topic_name" value="/camera/color/image_mono"/>
+  <param name="cam1_topic_name" value="/camera/color/image_mono"/>
+  </node>
+</launch>

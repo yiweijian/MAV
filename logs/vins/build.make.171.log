@@ -1,0 +1,4 @@
+[ 73%] Built target vins_lib
+[ 82%] Built target vins_node
+[ 91%] Built target kitti_gps_test
+[100%] Built target kitti_odom_test

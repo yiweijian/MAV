@@ -1,0 +1,7 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kvoid waypoint_navigator::WaypointNavigatorNode::computeGoal()[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:329:51:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(cv::Point {aka cv::Point_<int>}) (double&, double&)[m[K’
+                 goal_location(goal_east,goal_north[01;31m[K)[m[K;
+                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

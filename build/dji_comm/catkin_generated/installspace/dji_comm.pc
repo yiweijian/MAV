@@ -1,0 +1,8 @@
+prefix=/home/nuc/yi/vins/vins_catkin_ws/install
+
+Name: dji_comm
+Description: Description of dji_comm
+Version: 0.1.9
+Cflags: -I/home/nuc/yi/vins/vins_catkin_ws/install/include
+Libs: -L/home/nuc/yi/vins/vins_catkin_ws/install/lib -ldji_serial_port_lib -ldji_comm_lib
+Requires: dji_sdk_lib roscpp

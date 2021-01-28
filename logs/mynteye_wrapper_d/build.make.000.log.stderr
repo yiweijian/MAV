@@ -1,0 +1,5 @@
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/mynteye/src/mynteye_wrapper_d/src/mynteye_listener.cc:21:41:[m[K [01;31m[Kfatal error: [m[Kmynteye_wrapper_d/GetParams.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/mynteye_listener_d.dir/src/mynteye_listener.cc.o] 错误 1
+make[1]: *** [CMakeFiles/mynteye_listener_d.dir/all] 错误 2
+make: *** [all] 错误 2

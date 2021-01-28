@@ -1,0 +1,10 @@
+<launch>
+  <arg name="mav_name" default="raven" />
+  <arg name="namespace" default="$(arg mav_name)"/>
+
+  <node name="dji_interface" pkg="dji_interface" type="dji_interface_node" respawn="true" clear_params="true" output="screen">
+      <rosparam file="$(find dji_interface)/cfg/$(arg mav_name)/dji_interface_params.yaml"/>
+  </node>
+
+</launch>
+

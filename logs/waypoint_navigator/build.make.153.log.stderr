@@ -1,0 +1,11 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In function ‘[01m[KEigen::MatrixXd waypoint_navigator::computelocation(uint16_t, double, double)[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:135:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kpc[m[K’ was not declared in this scope
+     Pc=[01;31m[Kpc[m[K*0.001f;
+        [01;31m[K^~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:135:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KPc[m[K’
+     Pc=[01;36m[Kpc[m[K*0.001f;
+        [01;36m[K^~[m[K
+        [32m[KPc[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

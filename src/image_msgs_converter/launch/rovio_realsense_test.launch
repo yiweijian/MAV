@@ -1,0 +1,14 @@
+<launch>
+    <node type="image_msgs_converter.py" pkg="image_msgs_converter" name="image_msgs_converter">
+        <rosparam command="load" file="$(find image_msgs_converter)/cfg/config.yaml"/>
+    </node>
+    <node name="rovio" pkg="rovio" type="rovio_node" output="screen">
+      <param name="filter_config" value="$(find dji_interface)/cfg/raven/rovio_filter.info" />
+      <param name="camera0_config" value="$(find dji_interface)/cfg/raven/rovio_cam0.yaml" /> 
+      <remap from="cam0/image_raw" to="/camera/color/image_mono"/>
+      <remap from="imu0" to="/camera/imu"/>
+      <param name="world_frame" value="odom"/>
+      <param name="capability_group" value="Rovio" />
+    </node>
+
+</launch>

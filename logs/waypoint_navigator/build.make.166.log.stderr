@@ -1,0 +1,14 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In function ‘[01m[Kvoid waypoint_navigator::goal_camCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:168:34:[m[K [01;31m[Kerror: [m[K‘[01m[KCOLOR_BGR2RGB[m[K’ was not declared in this scope
+         cv::cvtColor(frame,frame,[01;31m[KCOLOR_BGR2RGB[m[K);
+                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:168:34:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:74:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/imgproc.hpp:536:5:[m[K [01;36m[Knote: [m[K  ‘[01m[KCOLOR_BGR2RGB[m[K’
+     [01;36m[KCOLOR_BGR2RGB[m[K      = 4,
+     [01;36m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

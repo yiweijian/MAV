@@ -1,0 +1,8 @@
+prefix=/home/nuc/yi/vins/vins_catkin_ws/devel
+
+Name: nlopt
+Description: Description of nlopt
+Version: 2.4.1
+Cflags: -I/home/nuc/yi/vins/vins_catkin_ws/devel/include
+Libs: -L/home/nuc/yi/vins/vins_catkin_ws/devel/lib -lnlopt_wrap
+Requires: 

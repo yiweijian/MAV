@@ -1,0 +1,8 @@
+prefix=/home/nuc/yi/vins/vins_catkin_ws/devel
+
+Name: lightweight_filtering
+Description: Description of lightweight_filtering
+Version: 0.0.9
+Cflags: -I/home/nuc/yi/vins/vins_catkin_ws/src/rovio/lightweight_filtering/include -I/home/nuc/yi/vins/vins_catkin_ws/devel/include -I/usr/local/include/eigen3
+Libs: -L/home/nuc/yi/vins/vins_catkin_ws/devel/lib 
+Requires: 

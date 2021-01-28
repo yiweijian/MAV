@@ -1,0 +1,22 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[KTracker[m[K’ was not declared in this scope
+ cv::Ptr<[01;31m[KTracker[m[K> tarck = TrackerKCF::create();
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:59:9:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/tracking.hpp:281:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:35[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/tracking/tracker.hpp:524:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Tracker[m[K’
+ class CV_EXPORTS_W [01;36m[KTracker[m[K : public virtual Algorithm
+                    [01;36m[K^~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:59:16:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ cv::Ptr<Tracker[01;31m[K>[m[K tarck = TrackerKCF::create();
+                [01;31m[K^[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:59:26:[m[K [01;31m[Kerror: [m[K‘[01m[KTrackerKCF[m[K’ has not been declared
+ cv::Ptr<Tracker> tarck = [01;31m[KTrackerKCF[m[K::create();
+                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kcv::Rect2d waypoint_navigator::WaypointNavigatorNode::computeGoal()[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:435:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kroi[m[K’ was not declared in this scope
+         return [01;31m[Kroi[m[K;
+                [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

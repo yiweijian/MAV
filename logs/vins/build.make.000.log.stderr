@@ -1,0 +1,16 @@
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/VINS-Fusion/vins_estimator/src/KITTIGPSTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/VINS-Fusion/vins_estimator/src/KITTIGPSTest.cpp:144:86:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(GPSFile, "%lf %lf %lf %lf %lf %lf ", &lat, &lon, &alt, &roll, &pitch, &yaw);
+[01;32m[K                                                                                      ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/VINS-Fusion/vins_estimator/src/KITTIGPSTest.cpp:146:68:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(GPSFile, "%lf %lf %lf %lf %lf ", &vn, &ve, &vf, &vl, &vu);
+[01;32m[K                                                                    ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/VINS-Fusion/vins_estimator/src/KITTIGPSTest.cpp:148:77:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(GPSFile, "%lf %lf %lf %lf %lf %lf ", &ax, &ay, &az, &af, &al, &au);
+[01;32m[K                                                                             ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/VINS-Fusion/vins_estimator/src/KITTIGPSTest.cpp:150:77:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(GPSFile, "%lf %lf %lf %lf %lf %lf ", &wx, &wy, &wz, &wf, &wl, &wu);
+[01;32m[K                                                                             ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/VINS-Fusion/vins_estimator/src/KITTIGPSTest.cpp:152:117:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(GPSFile, "%lf %lf %lf %lf %lf %lf ", &pos_accuracy, &vel_accuracy, &navstat, &numsats, &velmode, &orimode);
+[01;32m[K                                                                                                                     ^[m[K

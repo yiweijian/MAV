@@ -1,0 +1,207 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In function ‘[01m[Kvoid waypoint_navigator::goal_depthCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::Mat::Mat(const _height_type&, const _width_type&, const string&, void*)[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;31m[K)[m[K;
+                                                                                                                                [01;31m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:3759:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:1419:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(cv::Mat&&)
+ [01;36m[KMat[m[K::Mat(Mat&& m)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:1419:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/cuda.hpp:1047:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/stitching/detail/warpers.hpp:47[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/stitching/warpers.hpp:46[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/stitching.hpp:48[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:89[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/cuda.inl.hpp:621:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const cv::cuda::GpuMat&)
+ [01;36m[KMat[m[K::Mat(const cuda::GpuMat& m)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/cuda.inl.hpp:621:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1052:37:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> cv::Mat::Mat(const cv::MatCommaInitializer_<_Tp>&)
+     template<typename _Tp> explicit [01;36m[KMat[m[K(const MatCommaInitializer_<_Tp>& commaInitializer);
+                                     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1052:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::MatCommaInitializer_<_Tp>[m[K’ and ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1048:37:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> cv::Mat::Mat(const cv::Point3_<_Tp>&, bool)
+     template<typename _Tp> explicit [01;36m[KMat[m[K(const Point3_<_Tp>& pt, bool copyData=true);
+                                     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1048:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Point3_<_Tp>[m[K’ and ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1044:37:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> cv::Mat::Mat(const cv::Point_<_Tp>&, bool)
+     template<typename _Tp> explicit [01;36m[KMat[m[K(const Point_<_Tp>& pt, bool copyData=true);
+                                     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1044:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Point_<_Tp>[m[K’ and ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1040:51:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, int m, int n> cv::Mat::Mat(const cv::Matx<_Tp, m, n>&, bool)
+     template<typename _Tp, int m, int n> explicit [01;36m[KMat[m[K(const Matx<_Tp, m, n>& mtx, bool copyData=true);
+                                                   [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1040:51:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Matx<_Tp, m, n>[m[K’ and ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1036:44:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, int n> cv::Mat::Mat(const cv::Vec<_Tp, m>&, bool)
+     template<typename _Tp, int n> explicit [01;36m[KMat[m[K(const Vec<_Tp, n>& vec, bool copyData=true);
+                                            [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1036:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Vec<_Tp, m>[m[K’ and ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1031:49:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, long unsigned int _Nm> cv::Mat::Mat(const std::array<_Tp, _Nm>&, bool)
+     template<typename _Tp, size_t _Nm> explicit [01;36m[KMat[m[K(const std::array<_Tp, _Nm>& arr, bool copyData=false);
+                                                 [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1031:49:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’ and ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1025:37:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> cv::Mat::Mat(std::initializer_list<int>, std::initializer_list<_Tp>)
+     template<typename _Tp> explicit [01;36m[KMat[m[K(const std::initializer_list<int> sizes, const std::initializer_list<_Tp> list);
+                                     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1025:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kunsigned int[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1021:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class> cv::Mat::Mat(std::initializer_list<_Tp>)
+     explicit [01;36m[KMat[m[K(const std::initializer_list<_Tp> list);
+              [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1021:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kunsigned int[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1015:37:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> cv::Mat::Mat(const std::vector<_Tp>&, bool)
+     template<typename _Tp> explicit [01;36m[KMat[m[K(const std::vector<_Tp>& vec, bool copyData=false);
+                                     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:1015:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:67:128:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::vector<_Tp>[m[K’ and ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’
+         cv::Mat frame(depth_img->height,depth_img->width,sensor_msgs::image_encodings::TYPE_32FC1,(void*)depth_img->data.data()[01;36m[K)[m[K;
+                                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:997:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const cv::Mat&, const std::vector<cv::Range>&)
+     [01;36m[KMat[m[K(const Mat& m, const std::vector<Range>& ranges);
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:997:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:987:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const cv::Mat&, const cv::Range*)
+     [01;36m[KMat[m[K(const Mat& m, const Range* ranges);
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:987:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:977:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const cv::Mat&, const Rect&)
+     [01;36m[KMat[m[K(const Mat& m, const Rect& roi);
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:977:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:967:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const cv::Mat&, const cv::Range&, const cv::Range&)
+     [01;36m[KMat[m[K(const Mat& m, const Range& rowRange, const Range& colRange=Range::all());
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:967:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:955:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const std::vector<int>&, int, void*, const size_t*)
+     [01;36m[KMat[m[K(const std::vector<int>& sizes, int type, void* data, const size_t* steps=0);
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:955:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:941:5:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(int, const int*, int, void*, const size_t*)
+     [01;36m[KMat[m[K(int ndims, const int* sizes, int type, void* data, const size_t* steps=0);
+     [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:941:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst string {aka const std::basic_string<char>}[m[K’ to ‘[01m[Kint[m[K’
+In file included from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.hpp:3759:0[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core.hpp:59[m[K,
+                 from [01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:51[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:603:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(cv::Size, int, void*, std::size_t)
+ [01;36m[KMat[m[K::Mat(Size _sz, int _type, void* _data, size_t _step)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:603:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _height_type {aka const unsigned int}[m[K’ to ‘[01m[Kcv::Size {aka cv::Size_<int>}[m[K’
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:574:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(int, int, int, void*, std::size_t)
+ [01;36m[KMat[m[K::Mat(int _rows, int _cols, int _type, void* _data, size_t _step)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:574:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst string {aka const std::basic_string<char>}[m[K’ to ‘[01m[Kint[m[K’
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:555:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const cv::Mat&)
+ [01;36m[KMat[m[K::Mat(const Mat& m)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:555:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:546:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const std::vector<int>&, int, const Scalar&)
+ [01;36m[KMat[m[K::Mat(const std::vector<int>& _sz, int _type, const Scalar& _s)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:546:1:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:529:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(int, const int*, int, const Scalar&)
+ [01;36m[KMat[m[K::Mat(int _dims, const int* _sz, int _type, const Scalar& _s)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:529:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst string {aka const std::basic_string<char>}[m[K’ to ‘[01m[Kint[m[K’
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:538:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(const std::vector<int>&, int)
+ [01;36m[KMat[m[K::Mat(const std::vector<int>& _sz, int _type)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:538:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:521:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(int, const int*, int)
+ [01;36m[KMat[m[K::Mat(int _dims, const int* _sz, int _type)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:521:1:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:512:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(cv::Size, int, const Scalar&)
+ [01;36m[KMat[m[K::Mat(Size _sz, int _type, const Scalar& _s)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:512:1:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:495:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(int, int, int, const Scalar&)
+ [01;36m[KMat[m[K::Mat(int _rows, int _cols, int _type, const Scalar& _s)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:495:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst string {aka const std::basic_string<char>}[m[K’ to ‘[01m[Kint[m[K’
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:504:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(cv::Size, int)
+ [01;36m[KMat[m[K::Mat(Size _sz, int _type)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:504:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:487:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat(int, int, int)
+ [01;36m[KMat[m[K::Mat(int _rows, int _cols, int _type)
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:487:1:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:481:1:[m[K [01;36m[Knote: [m[Kcandidate: cv::Mat::Mat()
+ [01;36m[KMat[m[K::Mat()
+ [01;36m[K^~~[m[K
+[01m[K/home/nuc/yi/opencv3.4/cmake/include/opencv2/core/mat.inl.hpp:481:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

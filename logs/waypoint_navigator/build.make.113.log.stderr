@@ -1,0 +1,10 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In function ‘[01m[Kvoid waypoint_navigator::computelocation(uint16_t, double, double)[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:95:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KEigen[m[K’
+     [01;31m[KEigen[m[K::Matrix<double,3,1> Puv;
+     [01;31m[K^~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPuv[m[K’ was not declared in this scope
+     [01;31m[KPuv[m[K << x,y,1;
+     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

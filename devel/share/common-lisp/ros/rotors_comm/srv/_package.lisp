@@ -1,0 +1,15 @@
+(cl:defpackage rotors_comm-srv
+  (:use )
+  (:export
+   "RECORDROSBAG"
+   "<RECORDROSBAG-REQUEST>"
+   "RECORDROSBAG-REQUEST"
+   "<RECORDROSBAG-RESPONSE>"
+   "RECORDROSBAG-RESPONSE"
+   "OCTOMAP"
+   "<OCTOMAP-REQUEST>"
+   "OCTOMAP-REQUEST"
+   "<OCTOMAP-RESPONSE>"
+   "OCTOMAP-RESPONSE"
+  ))
+

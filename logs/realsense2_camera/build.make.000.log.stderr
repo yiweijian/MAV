@@ -1,0 +1,49 @@
+In file included from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:7:0[m[K,
+                 from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp:5[m[K:
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h:213:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+           #pragma clang diagnostic push // CLion suppressor
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h:214:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma ide diagnostic [-Wunknown-pragmas]
+           #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h:220:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+           #pragma clang diagnostic pop
+[01;32m[K ^[m[K
+In file included from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_all_params.h:11:0[m[K,
+                 from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:8[m[K,
+                 from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp:5[m[K:
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_enum_param.h:52:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+         #pragma clang diagnostic push
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_enum_param.h:53:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma ide diagnostic [-Wunknown-pragmas]
+         #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_enum_param.h:81:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+         #pragma clang diagnostic pop
+[01;32m[K ^[m[K
+In file included from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:7:0[m[K,
+                 from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:1[m[K:
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h:213:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+           #pragma clang diagnostic push // CLion suppressor
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h:214:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma ide diagnostic [-Wunknown-pragmas]
+           #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h:220:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+           #pragma clang diagnostic pop
+[01;32m[K ^[m[K
+In file included from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_all_params.h:11:0[m[K,
+                 from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:8[m[K,
+                 from [01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:1[m[K:
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_enum_param.h:52:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+         #pragma clang diagnostic push
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_enum_param.h:53:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma ide diagnostic [-Wunknown-pragmas]
+         #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/ddynamic_reconfigure/param/dd_enum_param.h:81:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [-Wunknown-pragmas]
+         #pragma clang diagnostic pop
+[01;32m[K ^[m[K
+[01m[K/home/nuc/wangl/vins_catkin_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:800:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [-Wunknown-pragmas]
+     #pragma omp parallel for schedule(dynamic) //Using OpenMP to try to parallelise the loop
+[01;32m[K ^[m[K

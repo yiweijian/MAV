@@ -1,0 +1,8 @@
+prefix=/home/nuc/wangl/vins_catkin_ws/install
+
+Name: nlopt
+Description: Description of nlopt
+Version: 2.4.1
+Cflags: -I/home/nuc/wangl/vins_catkin_ws/install/include
+Libs: -L/home/nuc/wangl/vins_catkin_ws/install/lib -lnlopt_wrap
+Requires: 

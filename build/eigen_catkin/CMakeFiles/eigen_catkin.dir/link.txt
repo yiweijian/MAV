@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libeigen_catkin.so -o /home/nuc/yi/vins/vins_catkin_ws/devel/lib/libeigen_catkin.so CMakeFiles/eigen_catkin.dir/src/dependency_tracker.cc.o 

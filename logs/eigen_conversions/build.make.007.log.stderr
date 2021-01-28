@@ -1,0 +1,1155 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:263:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:29:39:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[K__m128 {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct is_arithmetic<__m128[01;35m[K>[m[K  { enum { value = true }; };
+                                       [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:30:40:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[K__m128i {aka __vector(2) long long int}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct is_arithmetic<__m128i[01;35m[K>[m[K { enum { value = true }; };
+                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:31:40:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[K__m128d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct is_arithmetic<__m128d[01;35m[K>[m[K { enum { value = true }; };
+                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:100:43:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct unpacket_traits<Packet4f[01;35m[K>[m[K { typedef float  type; enum {size=4}; };
+                                           [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:101:43:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct unpacket_traits<Packet2d[01;35m[K>[m[K { typedef double type; enum {size=2}; };
+                                           [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:102:43:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4i {aka __vector(2) long long int}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct unpacket_traits<Packet4i[01;35m[K>[m[K { typedef int    type; enum {size=4}; };
+                                           [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:263:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:585:35:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ struct palign_impl<Offset,Packet4f[01;35m[K>[m[K
+                                   [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:608:35:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4i {aka __vector(2) long long int}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ struct palign_impl<Offset,Packet4i[01;35m[K>[m[K
+                                   [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:631:35:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ struct palign_impl<Offset,Packet2d[01;35m[K>[m[K
+                                   [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:265:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:211:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet4f, Packet2cf, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:220:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet2cf, Packet4f, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:407:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet2d, Packet1cd, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:416:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet1cd, Packet2d, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:276:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Functors.h:932:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ struct functor_traits<std::[01;35m[Kbinder2nd[m[K<T> >
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:276:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Functors.h:936:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ struct functor_traits<std::[01;35m[Kbinder1st[m[K<T> >
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:138:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:279[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ inline const CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >, const Derived>
+                                [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:138:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:279[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::MatrixBase<Derived>::cwiseEqual(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   return CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >,const Derived>
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:108:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:[m[K At global scope:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ inline const CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >, const Derived>
+                                [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator==,  std::equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator!=,  std::not_equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<,   std::less)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<=,  std::less_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>,   std::greater)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>=,  std::greater_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:108:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::cwiseEqual(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   return CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >,const Derived>
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator==(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator==,  std::equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::not_equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator!=(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator!=,  std::not_equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::less<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<,   std::less)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::less_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<=(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<=,  std::less_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::greater<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>,   std::greater)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::greater_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>=(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>=,  std::greater_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/opt/ros/indigo/include/std_msgs/Float64MultiArray.h:9[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:277:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_msg.h:46[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:31[m[K:
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<float, 4, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<float, 4, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<float, 4, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<float, 4, 1>, float, float, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<float, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<float, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<float, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<float, 4, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:284:16:[m[K   required from ‘[01m[Kclass Eigen::Quaternion<float>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h:22:3:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<float>::type {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+                      >::type [01;35m[KPacketReturnType[m[K;
+                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 4, 1>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 4, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:284:16:[m[K   required from ‘[01m[Kclass Eigen::Quaternion<double>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h:63:3:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 3, 1>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 3, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 3, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 3, 1>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:37:6:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 4>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 4>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 4>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 4, 4>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 4, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 4, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 4, 4>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:224:14:[m[K   required from ‘[01m[Kclass Eigen::Transform<double, 3, 2>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 6, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 6, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 6, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 6, 1>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 6, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 6, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 6, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 6, 1>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:182:6:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:566:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, false>, 2>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   required from ‘[01m[Kclass Eigen::MapBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, false>, 0>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:313:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<const Eigen::Matrix<double, 4, 4>, 3, 1, false, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:148:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<const Eigen::Matrix<double, 4, 4>, 3, 1, false, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, false>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:65:35:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseEigenToMsgImpl(const T&, geometry_msgs::Pose&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:125:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:566:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 2>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   required from ‘[01m[Kclass Eigen::MapBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:313:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<const Eigen::Matrix<double, 4, 4>, 3, 3, false, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:148:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<const Eigen::Matrix<double, 4, 4>, 3, 3, false, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:68:28:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseEigenToMsgImpl(const T&, geometry_msgs::Pose&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:125:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:313:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<Eigen::Matrix<double, 4, 4>, 3, 4, false, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:148:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<Eigen::Matrix<double, 4, 4>, 3, 4, false, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:318:47:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::Transform<_Scalar, Dim, OtherMode, OtherOptions>&) [with int OtherMode = 1; int OtherOptions = 0; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:53:7:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 4, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:566:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 4, false>, 2>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 4, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 4, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 4, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   required from ‘[01m[Kclass Eigen::MapBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 4, false>, 0>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:313:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<const Eigen::Matrix<double, 4, 4>, 3, 4, false, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:148:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<const Eigen::Matrix<double, 4, 4>, 3, 4, false, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 4, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:318:47:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::Transform<_Scalar, Dim, OtherMode, OtherOptions>&) [with int OtherMode = 1; int OtherOptions = 0; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:53:7:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 3, false>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 3, false>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 3, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 3, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 3, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:313:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<Eigen::Matrix<double, 4, 4>, 3, 3, false, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:148:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<Eigen::Matrix<double, 4, 4>, 3, 3, false, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 3, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:331:13:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::Transform<_Scalar, Dim, OtherMode, OtherOptions>&) [with int OtherMode = 1; int OtherOptions = 0; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:53:7:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:313:7:[m[K   required from ‘[01m[Kclass Eigen::internal::BlockImpl_dense<Eigen::Matrix<double, 4, 4>, 3, 1, false, true>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:148:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<Eigen::Matrix<double, 4, 4>, 3, 1, false, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:332:18:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::Transform<_Scalar, Dim, OtherMode, OtherOptions>&) [with int OtherMode = 1; int OtherOptions = 0; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:53:7:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   [ skipping 3 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:148:7:[m[K   required from ‘[01m[Kclass Eigen::BlockImpl<Eigen::Matrix<double, 4, 4>, 1, 3, false, Eigen::Dense>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:596:45:[m[K   required from ‘[01m[Kvoid Eigen::Transform<Scalar, Dim, Mode, _Options>::makeAffine() [with _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:319:17:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::Transform<_Scalar, Dim, OtherMode, OtherOptions>&) [with int OtherMode = 1; int OtherOptions = 0; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:53:7:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 3, 3>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 3, 3> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 3, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:970:52:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const Eigen::RotationBase<Derived, Dim>&) [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:257:11:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::RotationBase<Derived, Dim>&) [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:107:20:[m[K   required from ‘[01m[KEigen::Translation<Scalar, Dim>::IsometryTransformType Eigen::Translation<Scalar, Dim>::operator*(const Eigen::RotationBase<Derived, Dim>&) const [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; Eigen::Translation<Scalar, Dim>::IsometryTransformType = Eigen::Transform<double, 3, 1>][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:55:44:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MapBase.h:27:34:[m[K   [ skipping 4 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/Block.h:102:81:[m[K   required from ‘[01m[Kclass Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:856:23:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::pretranslate(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 1>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:128:5:[m[K   required from ‘[01m[KEigen::Transform<_Scalar, Dim, Mode> Eigen::Translation<Scalar, Dim>::operator*(const Eigen::Transform<_Scalar, Dim, Mode, Options>&) const [with int Mode = 1; int Options = 0; _Scalar = double; int _Dim = 3][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:107:18:[m[K   required from ‘[01m[KEigen::Translation<Scalar, Dim>::IsometryTransformType Eigen::Translation<Scalar, Dim>::operator*(const Eigen::RotationBase<Derived, Dim>&) const [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; Eigen::Translation<Scalar, Dim>::IsometryTransformType = Eigen::Transform<double, 3, 1>][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:55:44:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h:113:7:[m[K   required from ‘[01m[Kclass Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:856:23:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::pretranslate(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 1>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:128:5:[m[K   required from ‘[01m[KEigen::Transform<_Scalar, Dim, Mode> Eigen::Translation<Scalar, Dim>::operator*(const Eigen::Transform<_Scalar, Dim, Mode, Options>&) const [with int Mode = 1; int Options = 0; _Scalar = double; int _Dim = 3][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:107:18:[m[K   required from ‘[01m[KEigen::Translation<Scalar, Dim>::IsometryTransformType Eigen::Translation<Scalar, Dim>::operator*(const Eigen::RotationBase<Derived, Dim>&) const [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; Eigen::Translation<Scalar, Dim>::IsometryTransformType = Eigen::Transform<double, 3, 1>][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:55:44:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 4, 1, 3, 4>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 4, 1, 3, 4>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 4, 1, 3, 4>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 3, 4, 1, 3, 4>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 3, 4, 1, 3, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 3, 4, 1, 3, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h:217:25:[m[K   required from ‘[01m[Kclass Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:856:23:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::pretranslate(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 1>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:128:5:[m[K   required from ‘[01m[KEigen::Transform<_Scalar, Dim, Mode> Eigen::Translation<Scalar, Dim>::operator*(const Eigen::Transform<_Scalar, Dim, Mode, Options>&) const [with int Mode = 1; int Options = 0; _Scalar = double; int _Dim = 3][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:107:18:[m[K   required from ‘[01m[KEigen::Translation<Scalar, Dim>::IsometryTransformType Eigen::Translation<Scalar, Dim>::operator*(const Eigen::RotationBase<Derived, Dim>&) const [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; Eigen::Translation<Scalar, Dim>::IsometryTransformType = Eigen::Transform<double, 3, 1>][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:55:44:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256> >, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256> >, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256> >, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256> >, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>, Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256> > >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:222:77:[m[K   required from ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::CoeffBasedProduct<const Eigen::Matrix<double, 3, 1>&, const Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 4, false>, 256>; Derived = Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 4, false>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:856:14:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::pretranslate(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 1>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:128:5:[m[K   required from ‘[01m[KEigen::Transform<_Scalar, Dim, Mode> Eigen::Translation<Scalar, Dim>::operator*(const Eigen::Transform<_Scalar, Dim, Mode, Options>&) const [with int Mode = 1; int Options = 0; _Scalar = double; int _Dim = 3][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:107:18:[m[K   required from ‘[01m[KEigen::Translation<Scalar, Dim>::IsometryTransformType Eigen::Translation<Scalar, Dim>::operator*(const Eigen::RotationBase<Derived, Dim>&) const [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; Eigen::Translation<Scalar, Dim>::IsometryTransformType = Eigen::Transform<double, 3, 1>][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:55:44:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, Eigen::Matrix<double, 3, 1> >, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, Eigen::Matrix<double, 3, 1> >, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, Eigen::Matrix<double, 3, 1> >, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, Eigen::Matrix<double, 3, 1> >, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::SelfCwiseBinaryOp<Eigen::internal::scalar_sum_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>, Eigen::Matrix<double, 3, 1> > >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:222:77:[m[K   required from ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 1>; Derived = Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:858:19:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::pretranslate(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 1>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:128:5:[m[K   required from ‘[01m[KEigen::Transform<_Scalar, Dim, Mode> Eigen::Translation<Scalar, Dim>::operator*(const Eigen::Transform<_Scalar, Dim, Mode, Options>&) const [with int Mode = 1; int Options = 0; _Scalar = double; int _Dim = 3][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:107:18:[m[K   required from ‘[01m[KEigen::Translation<Scalar, Dim>::IsometryTransformType Eigen::Translation<Scalar, Dim>::operator*(const Eigen::RotationBase<Derived, Dim>&) const [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; Eigen::Translation<Scalar, Dim>::IsometryTransformType = Eigen::Transform<double, 3, 1>][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:55:44:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false> >, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false> >, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false> > >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false> > >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:49:7:[m[K   required from ‘[01m[Kclass Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:334:30:[m[K   required from ‘[01m[KDerived& Eigen::DenseBase<Derived>::setConstant(const Scalar&) [with Derived = Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false>; Eigen::DenseBase<Derived>::Scalar = double][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:501:21:[m[K   required from ‘[01m[KDerived& Eigen::DenseBase<Derived>::setZero() [with Derived = Eigen::Block<Eigen::Matrix<double, 4, 4>, 1, 3, false>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:596:7:[m[K   required from ‘[01m[Kvoid Eigen::Transform<Scalar, Dim, Mode, _Options>::makeAffine() [with _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:319:17:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::Transform<_Scalar, Dim, OtherMode, OtherOptions>&) [with int OtherMode = 1; int OtherOptions = 0; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:53:7:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Diagonal<const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:566:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Diagonal<const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>, 2>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Diagonal<const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Diagonal<const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Diagonal<const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Diagonal.h:64:53:[m[K   required from ‘[01m[Kclass Eigen::Diagonal<const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Redux.h:403:31:[m[K   required from ‘[01m[Ktypename Eigen::internal::traits<T>::Scalar Eigen::MatrixBase<Derived>::trace() const [with Derived = Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:730:12:[m[K   required from ‘[01m[Kstatic void Eigen::internal::quaternionbase_assign_impl<Other, 3, 3>::run(Eigen::QuaternionBase<OtherDerived>&, const Other&) [with Derived = Eigen::Quaternion<double>; Other = Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:518:59:[m[K   required from ‘[01m[KDerived& Eigen::QuaternionBase<Derived>::operator=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>; Derived = Eigen::Quaternion<double>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:268:72:[m[K   required from ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const Eigen::MatrixBase<OtherDerived>&) [with Derived = Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>; _Scalar = double; int _Options = 0][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:68:28:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseEigenToMsgImpl(const T&, geometry_msgs::Pose&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:125:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false> >, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false> >, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false> > >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false> > >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:49:7:[m[K   required from ‘[01m[Kclass Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:334:30:[m[K   required from ‘[01m[KDerived& Eigen::DenseBase<Derived>::setConstant(const Scalar&) [with Derived = Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>; Eigen::DenseBase<Derived>::Scalar = double][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:501:21:[m[K   required from ‘[01m[KDerived& Eigen::DenseBase<Derived>::setZero() [with Derived = Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, false>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:971:3:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const Eigen::RotationBase<Derived, Dim>&) [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:257:11:[m[K   required from ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::RotationBase<Derived, Dim>&) [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Translation.h:107:20:[m[K   required from ‘[01m[KEigen::Translation<Scalar, Dim>::IsometryTransformType Eigen::Translation<Scalar, Dim>::operator*(const Eigen::RotationBase<Derived, Dim>&) const [with Derived = Eigen::Quaternion<double>; _Scalar = double; int _Dim = 3; Eigen::Translation<Scalar, Dim>::IsometryTransformType = Eigen::Transform<double, 3, 1>][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:55:44:[m[K   required from ‘[01m[Kvoid tf::{anonymous}::poseMsgToEigenImpl(const Pose&, T&) [with T = Eigen::Transform<double, 3, 2>; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_msg.cpp:115:26:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:263:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:29:39:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[K__m128 {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct is_arithmetic<__m128[01;35m[K>[m[K  { enum { value = true }; };
+                                       [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:30:40:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[K__m128i {aka __vector(2) long long int}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct is_arithmetic<__m128i[01;35m[K>[m[K { enum { value = true }; };
+                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:31:40:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[K__m128d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct is_arithmetic<__m128d[01;35m[K>[m[K { enum { value = true }; };
+                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:100:43:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct unpacket_traits<Packet4f[01;35m[K>[m[K { typedef float  type; enum {size=4}; };
+                                           [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:101:43:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct unpacket_traits<Packet2d[01;35m[K>[m[K { typedef double type; enum {size=2}; };
+                                           [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:102:43:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4i {aka __vector(2) long long int}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct unpacket_traits<Packet4i[01;35m[K>[m[K { typedef int    type; enum {size=4}; };
+                                           [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:263:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:585:35:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ struct palign_impl<Offset,Packet4f[01;35m[K>[m[K
+                                   [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:608:35:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4i {aka __vector(2) long long int}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ struct palign_impl<Offset,Packet4i[01;35m[K>[m[K
+                                   [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:631:35:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ struct palign_impl<Offset,Packet2d[01;35m[K>[m[K
+                                   [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:265:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:211:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet4f, Packet2cf, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:220:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet4f {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet2cf, Packet4f, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:407:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet2d, Packet1cd, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:416:63:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::Packet2d {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+ template<> struct conj_helper<Packet1cd, Packet2d, false,false[01;35m[K>[m[K
+                                                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:276:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Functors.h:932:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ struct functor_traits<std::[01;35m[Kbinder2nd[m[K<T> >
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:276:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Functors.h:936:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ struct functor_traits<std::[01;35m[Kbinder1st[m[K<T> >
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:138:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:279[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ inline const CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >, const Derived>
+                                [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:138:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:279[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::MatrixBase<Derived>::cwiseEqual(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   return CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >,const Derived>
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:108:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:[m[K At global scope:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ inline const CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >, const Derived>
+                                [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator==,  std::equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator!=,  std::not_equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<,   std::less)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<=,  std::less_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>,   std::greater)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   inline const CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>=,  std::greater_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:108:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::cwiseEqual(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder1st[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   return CwiseUnaryOp<std::[01;35m[Kbinder1st[m[K<std::equal_to<Scalar> >,const Derived>
+                            [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:108:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder1st[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator==(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator==,  std::equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::not_equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator!=(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator!=,  std::not_equal_to)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::less<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<,   std::less)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::less_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<=(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator<=,  std::less_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::greater<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>,   std::greater)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:109:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:350[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:[m[K In member function ‘[01m[Kconst Eigen::CwiseUnaryOp<std::binder2nd<std::greater_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>=(const Scalar&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Operation> class std::binder2nd[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     return CwiseUnaryOp<std::[01;35m[Kb[m[Kinder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K’
+ [01;36m[KEIGEN_MAKE_SCALAR_CWISE_UNARY_OP[m[K(operator>=,  std::greater_equal)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_function.h:1127:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:48[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:28[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+[01m[K/usr/include/c++/7/backward/binders.h:143:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     class [01;36m[Kbinder2nd[m[K
+           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:277:0[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/include/eigen_conversions/eigen_kdl.h:37[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:30[m[K:
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<float, 4, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<float, 4, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<float, 4, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<float, 4, 1>, float, float, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<float, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<float, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<float, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<float, 4, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:284:16:[m[K   required from ‘[01m[Kclass Eigen::Quaternion<float>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h:22:3:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<float>::type {aka __vector(4) float}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+                      >::type [01;35m[KPacketReturnType[m[K;
+                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 4, 1>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 4, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:284:16:[m[K   required from ‘[01m[Kclass Eigen::Quaternion<double>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h:63:3:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 4>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 4>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 4, 4>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 4, 4>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 4, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 4, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 4> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 4, 4>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:224:14:[m[K   required from ‘[01m[Kclass Eigen::Transform<double, 3, 2>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:82:31:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 6, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 6, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 6, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 6, 1>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 6, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 6, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 6, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 6, 1>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:103:15:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 0>[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:274:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:636:7:[m[K   required from ‘[01m[Kclass Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 3>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:371:8:[m[K   required from ‘[01m[Kstruct Eigen::internal::special_scalar_op_base<Eigen::Matrix<double, 3, 1>, double, double, false>[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:41:34:[m[K   required from ‘[01m[Kclass Eigen::DenseBase<Eigen::Matrix<double, 3, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:48:34:[m[K   required from ‘[01m[Kclass Eigen::MatrixBase<Eigen::Matrix<double, 3, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:85:7:[m[K   required from ‘[01m[Kclass Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 1> >[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:127:7:[m[K   required from ‘[01m[Kclass Eigen::Matrix<double, 3, 1>[m[K’
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/eigen_conversions/src/eigen_kdl.cpp:115:15:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:56:30:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[KEigen::internal::packet_traits<double>::type {aka __vector(2) double}[m[K’ [[01;35m[K-Wignored-attributes[m[K]

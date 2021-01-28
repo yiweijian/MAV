@@ -1,0 +1,16 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kvoid waypoint_navigator::WaypointNavigatorNode::computeGoal()[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:290:50:[m[K [01;31m[Kerror: [m[K‘[01m[Knames[m[K’ was not declared in this scope
+                 std::cout << "Couldn't load " << [01;31m[Knames[m[K[i] << std::endl;
+                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:290:50:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/indigo/include/ros/service.h:37:0[m[K,
+                 from [01m[K/opt/ros/indigo/include/ros/ros.h:50[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:25[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/opt/ros/indigo/include/ros/names.h:40:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::names[m[K’
+ namespace [01;36m[Knames[m[K
+           [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

@@ -1,0 +1,18 @@
+[  8%] Built target hector_servo_plugin
+[ 16%] Built target hector_gazebo_plugins_gencfg
+[ 25%] Built target hector_gazebo_reset_plugin
+[ 33%] Built target diffdrive_plugin_multi_wheel
+[ 41%] Built target diffdrive_plugin_6w
+[ 41%] Built target _hector_gazebo_plugins_generate_messages_check_deps_SetBias
+[ 41%] Built target geometry_msgs_generate_messages_cpp
+[ 50%] Built target hector_gazebo_ros_magnetic
+[ 58%] Built target gazebo_ros_force_based_move
+[ 58%] Built target geometry_msgs_generate_messages_py
+[ 58%] Built target geometry_msgs_generate_messages_lisp
+[ 62%] Built target hector_gazebo_plugins_generate_messages_cpp
+[ 70%] Built target hector_gazebo_ros_sonar
+[ 79%] Built target hector_gazebo_ros_gps
+[ 91%] Built target hector_gazebo_plugins_generate_messages_py
+[ 87%] Built target hector_gazebo_plugins_generate_messages_lisp
+[ 91%] Built target hector_gazebo_plugins_generate_messages
+[100%] Built target hector_gazebo_ros_imu

@@ -1,0 +1,12 @@
+--2021-01-08 11:04:19--  https://github.com/ethz-asl/thirdparty_library_binaries/raw/master/nlopt-2.4.2.tar.gz
+正在解析主机 github.com (github.com)... 52.74.223.119
+正在连接 github.com (github.com)|52.74.223.119|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 302 Found
+位置：https://raw.githubusercontent.com/ethz-asl/thirdparty_library_binaries/master/nlopt-2.4.2.tar.gz [跟随至新的 URL]
+--2021-01-08 11:04:20--  https://raw.githubusercontent.com/ethz-asl/thirdparty_library_binaries/master/nlopt-2.4.2.tar.gz
+正在解析主机 raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.76.133
+正在连接 raw.githubusercontent.com (raw.githubusercontent.com)|151.101.76.133|:443... 已连接。
+无法建立 SSL 连接。
+make[2]: *** [nlopt_src-prefix/src/nlopt_src-stamp/nlopt_src-download] 错误 4
+make[1]: *** [CMakeFiles/nlopt_src.dir/all] 错误 2
+make: *** [all] 错误 2

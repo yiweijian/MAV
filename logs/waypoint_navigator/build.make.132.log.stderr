@@ -1,0 +1,11 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kbool waypoint_navigator::WaypointNavigatorNode::addGoalToPath()[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:453:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrack_ok[m[K’ was not declared in this scope
+         std::cout<<"  track ok      "<<[01;31m[Ktrack_ok[m[K<<std::endl;
+                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:453:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktarck_ok[m[K’
+         std::cout<<"  track ok      "<<[01;36m[Ktrack_ok[m[K<<std::endl;
+                                        [01;36m[K^~~~~~~~[m[K
+                                        [32m[Ktarck_ok[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

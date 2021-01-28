@@ -1,0 +1,15 @@
+(cl:defpackage sensor_fusion_comm-msg
+  (:use )
+  (:export
+   "<EXTSTATE>"
+   "EXTSTATE"
+   "<DOUBLEMATRIXSTAMPED>"
+   "DOUBLEMATRIXSTAMPED"
+   "<POINTWITHCOVARIANCESTAMPED>"
+   "POINTWITHCOVARIANCESTAMPED"
+   "<DOUBLEARRAYSTAMPED>"
+   "DOUBLEARRAYSTAMPED"
+   "<EXTEKF>"
+   "EXTEKF"
+  ))
+

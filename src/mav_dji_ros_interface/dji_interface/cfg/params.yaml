@@ -1,0 +1,23 @@
+device: "/dev/tty.usbserial-A104JS3T"
+
+#app_id: 1077547
+#enc_key: "a132a45b9cece8d16556505ff1bee22cdcd8d3b4222c45ea9020c44480b78791"
+
+app_id: 1066937
+enc_key: "60eb4618ddcccca7b31e8bb9a9007a3da7c0c2abe39843ab5a2c43168533691f"
+#app_id: 1040678
+#enc_key: "a41335b074411eb3408029cd0955324df2d3b84e5c0d80ed8344ae5c34e05cb2"
+#app_id: 1077496
+#enc_key: "ad2d417f93437e298d64d6ada296cc5e01e79712037ee1d7fad30c3aff02c80c"
+thrust_minimum: 10
+thrust_maximum: 100
+thrust_offset: 8.945
+thrust_coefficient: 0.7389
+
+#available freq: 0 1 10 50 100 Hz
+imu_update_rate: 50
+gps_updae_rate: 10
+time_stamp_update_rate: 1
+magnetometer_update_rate: 10
+rc_update_rate: 50
+status_update_rate: 10

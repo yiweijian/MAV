@@ -1,0 +1,12 @@
+image_width: 640
+image_height: 480
+camera_name: camt
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [356.02839995, 0.0, 326.169011124, 0.0, 354.994776483, 250.946016946, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.302291567876, 0.0844495494493, -0.000647263440775, -0.000153326703759, 0.0]

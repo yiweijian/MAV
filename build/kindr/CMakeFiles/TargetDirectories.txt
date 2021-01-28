@@ -1,0 +1,14 @@
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/CMakeFiles/install/strip.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/CMakeFiles/install/local.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/CMakeFiles/install.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/CMakeFiles/list_install_components.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/CMakeFiles/rebuild_cache.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/CMakeFiles/edit_cache.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/CMakeFiles/uninstall.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/doc/doxygen/CMakeFiles/install/strip.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/doc/doxygen/CMakeFiles/install/local.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/doc/doxygen/CMakeFiles/install.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/doc/doxygen/CMakeFiles/list_install_components.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/doc/doxygen/CMakeFiles/rebuild_cache.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/doc/doxygen/CMakeFiles/edit_cache.dir
+/home/nuc/yi/vins/vins_catkin_ws/build/kindr/doc/doxygen/CMakeFiles/kindr_doc.dir

@@ -1,0 +1,54 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In function ‘[01m[KEigen::MatrixXd waypoint_navigator::computelocation(uint16_t, double, double)[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:105:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3d[m[K’ was not declared in this scope
+     [01;31m[KMatrix3d[m[K R = q.toRotationMatrix();
+     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:105:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:294:0[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Geometry:4[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h:29[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:40[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/include/waypoint_navigator/waypoint_navigator_node.h:25[m[K,
+                 from [01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:33[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:34:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3d[m[K’
+ typedef Matrix<Type, Size, Size> [01;36m[KM[m[Katrix##SizeSuffix##TypeSuffix;  \
+                                  [01;36m[K^[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS[m[K’
+ typedef Matrix<Type, Size, Size> [01;36m[KMatrix[m[K##SizeSuffix##TypeSuffix;  \
+                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:410:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS_ALL_SIZES[m[K’
+ [01;36m[KE[m[KIGEN_MAKE_TYPEDEFS_ALL_SIZES(double,               d)
+ [01;36m[K^[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[KR[m[K’ was not declared in this scope
+     [01;31m[KR[m[K.block<0,0>(3,1)
+     [01;31m[K^[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfx[m[K’ was not declared in this scope
+     K_matrix << [01;31m[Kfx[m[K,0,cx,0,fy,cy,0,0,1;
+                 [01;31m[K^~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kx[m[K’
+     K_matrix << [01;36m[Kfx[m[K,0,cx,0,fy,cy,0,0,1;
+                 [01;36m[K^~[m[K
+                 [32m[Kx[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcx[m[K’ was not declared in this scope
+     K_matrix << fx,0,[01;31m[Kcx[m[K,0,fy,cy,0,0,1;
+                      [01;31m[K^~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kx[m[K’
+     K_matrix << fx,0,[01;36m[Kcx[m[K,0,fy,cy,0,0,1;
+                      [01;36m[K^~[m[K
+                      [32m[Kx[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kfy[m[K’ was not declared in this scope
+     K_matrix << fx,0,cx,0,[01;31m[Kfy[m[K,cy,0,0,1;
+                           [01;31m[K^~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:27:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ky[m[K’
+     K_matrix << fx,0,cx,0,[01;36m[Kfy[m[K,cy,0,0,1;
+                           [01;36m[K^~[m[K
+                           [32m[Ky[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcy[m[K’ was not declared in this scope
+     K_matrix << fx,0,cx,0,fy,[01;31m[Kcy[m[K,0,0,1;
+                              [01;31m[K^~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:119:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ky[m[K’
+     K_matrix << fx,0,cx,0,fy,[01;36m[Kcy[m[K,0,0,1;
+                              [01;36m[K^~[m[K
+                              [32m[Ky[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2

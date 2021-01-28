@@ -1,0 +1,20 @@
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:[m[K In member function ‘[01m[Kbool waypoint_navigator::WaypointNavigatorNode::executePathCallback(std_srvs::Empty::Request&, std_srvs::Empty::Response&)[m[K’:
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:538:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd_srvs[m[K’
+   [01;31m[Kstd_srvs[m[K::Empty::Request empty_request;
+   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:536:5:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kbool waypoint_navigator::WaypointNavigatorNode::addGoalToPath()[m[K’
+     [01;31m[KaddGoalToPath[m[K
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:197:10:[m[K [01;36m[Knote: [m[Kdeclared here
+     bool [01;36m[KWaypointNavigatorNode[m[K::addGoalToPath() {
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:540:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kempty_request[m[K’ was not declared in this scope
+   visualizePathCallback([01;31m[Kempty_request[m[K, empty_response);
+                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/yi/vins/vins_catkin_ws/src/waypoint_navigator/src/waypoint_navigator_node.cpp:540:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kempty_response[m[K’
+   visualizePathCallback([01;36m[Kempty_request[m[K, empty_response);
+                         [01;36m[K^~~~~~~~~~~~~[m[K
+                         [32m[Kempty_response[m[K
+make[2]: *** [CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/waypoint_navigator_node.dir/all] 错误 2
+make: *** [all] 错误 2
